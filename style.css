@@ -24,15 +24,22 @@ body {
 
 
   button {
+    color: #333333;
     background-color: rgb(247, 250, 157);
     border-radius: 15px;
     border:none ;
-    padding: 0.8rem 1.5rem;
-    font-size: 0.8rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 1.125rem;
     margin-top: 0.8rem;
     margin-bottom: 12rem;
   }
 
+ button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+  
   a {
     text-decoration: none;
     color: #333333;
@@ -42,3 +49,9 @@ body {
     font-size: 0.5rem;
     padding-top: 0.8rem;
   }
+
+  @media (max-width: 400px) {
+    h1 {
+        width: 400px
+   }
+   }
