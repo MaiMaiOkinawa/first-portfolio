@@ -50,8 +50,8 @@ body {
     padding-top: 0.8rem;
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 500px) {
     h1 {
-        width: 400px
+        width: 450px
    }
    }
